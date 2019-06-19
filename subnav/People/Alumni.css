@@ -1,0 +1,27 @@
+*{padding:0;margin:0;}
+.content{width:822px;margin:0 auto;padding:30px 60px;min-height:1000px;font-family:Arial, Helvetica, sans-serif;background-color:#EEE;}
+h2{padding:10px;color:#03C;background:#CCC;margin:10px auto;}
+.person{padding:45px;border-bottom:1px solid #CCC;clear:both;}
+.person .photo1{margin-top:-5px;float:left;border:1px solid #9CF;}
+.person .info{margin-left:140px;}
+.info p{margin:5px 0px;}
+.photo1{margin-top:15px;margin-bottom:15px;margin-left:-30px;padding:2px;width:140px;height:180px;}
+.photo1 img{width:140px;height:180px;}
+.Name{font-size:20px;color:#06F;}
+
+.content .person a{text-decoration:none;color:#666;}
+.content .person .homepage{border:1px solid #CCC;width:99px; border-radius:5px;padding:1px;}
+.content .person .homepage:hover{background:#999;}
+.content .person a:hover{color:#FFF;}
+p{font-size:18px;}
+
+#nav .title3 a:visited{color:#999;}
+
+
+.sidebar{margin-top:-5px;margin-left:65.48%;padding:15px;background:#CCC;position:fixed;}
+.sidebar ul{list-style:none;}
+.sidebar ul li{font-size:14px;line-height:30px;border-bottom:1px solid #666;text-align:center;}
+.title{font-size:16px;font-weight:bold;border-bottom:1px solid #000;color:#000;line-height:30px;padding:0px 5px 5px 0px;}
+.content .sidebar ul li a{display:block;color:#000;text-decoration:none;padding:7px 10px;}
+.sidebar ul li a:hover{background-color:#999;width:131px;}
+.title07{background:#999;}
