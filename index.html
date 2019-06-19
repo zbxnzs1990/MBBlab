@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <title>MBB Laboratory</title>
+    <link href="css1.css" rel="stylesheet">
+    <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="pic/pic change/pic change.css" rel="stylesheet" type="text/css">
+    <script src="pic/pic change/pic change.js" type="text/javascript"></script>
+ 
+    <script src="js/myfocus-2.0.1.min.js" type="text/javascript"></script>
+    <script src="js/mf-pattern/mF_kdui.js" type="text/javascript"></script>
+    <link href="js/mf-pattern/mF_kdui.css" rel="stylesheet" type="text/css">
+    
+<!--    //你可以简单的调用---只设置它的盒子id，其它参数全部默认设置：
+<script type="text/javascript">
+myFocus.set({id:'boxID'});
+</script>-->
+
+<script type="text/javascript">
+myFocus.set({
+    id:'boxID',//焦点图盒子ID
+    pattern:'mF_kdui',//风格应用的名称
+    time:3,//切换时间间隔(秒)
+    trigger:'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+    width:940,//设置图片区域宽度(像素)
+    height:430,//设置图片区域高度(像素)
+    txtHeight:'default'//文字层高度设置(像素),'default'为默认高度，0为隐藏
+});
+</script>
+   
+   
+   
+  </head>
+  
+<body>
+  <!--container begin-->
+  <div id="container">
+  
+    <!--nav begin-->
+   
+	<div id="nav">
+	    <div class="logo">
+			<h4>MBB Lab</h4>
+		</div>
+		
+		<div onclick="myDiv()" class="burger">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		</div>
+
+		
+         <ul id="nav-links">
+           <li class="home"><a href="Home.html">Home</a></li>
+           <li class="title2"><a href="About MBB.html">About</a></li>
+           <li class="title3"><a href="People.html">People</a>
+              <ul>
+                 <li><a href="subnav/People/PI.html">Principal Investigator</a></li>
+                 <li><a href="subnav/People/Postdoctor.html">Postdoc</a></li>
+                 <li><a href="subnav/People/PhD Student.html">PhD Student</a></li>
+                 <li><a href="subnav/People/Master.html">Master Student</a></li>
+                 <li><a href="subnav/People/Undergraduate.html">Undergraduate</a></li>
+                 <li><a href="subnav/People/Technician.html">Technician</a></li>
+                 <li><a href="subnav/People/Visiting Scholar.html">Visiting Scholar</a></li>
+                 <li><a href="subnav/People/Alumni.html">Alumni</a></li>
+              </ul>
+           </li>
+           <li class="title4"><a href="Research.html">Research</a>
+              <ul>
+                 <li><a href="subnav/Research/1.html">Sparse Model</a></li>
+                 <li><a href="subnav/Research/2.html">Microscopic imaging</a></li>
+                 <li><a href="subnav/Research/3.html">Biomedical imaging</a></li>
+                 <li><a href="subnav/Research/4.html">Genomics Informatics</a></li>
+                 <li><a href="subnav/Research/5.html">Imaging Genomics</a></li>
+                 <li><a href="subnav/Research/6.html">devcog</a></li>
+              </ul>
+           </li>
+           <li class="title5"><a href="Publications.html">Publications</a>
+              <ul>
+                 <li><a href="subnav/Publications/Book Chapters.html">Book Chapters</a></li>
+                 <li><a href="subnav/Publications/Journal publications.html">Journal publications</a></li>
+                 <li><a href="subnav/Publications/Conference papers.html">Conference papers</a></li>
+              </ul>
+           </li>
+           <li class="title6"><a href="Software.html">Software</a></li>
+           <li class="title7"><a href="Teaching.html">Teaching</a>
+             <ul>
+                 <li><a href="subnav/Teaching/Mathematical Modeling.html">Mathematical Modeling</a></li>
+                 <li><a href="subnav/Teaching/Biomedical imaging.html">Biomedical imaging</a></li>
+             </ul>
+           </li>  
+           <li class="title11"><a href="News.html">News</a></li> 
+           <li class="title0"><a href="Opportunity.html">Opportunity</a></li>
+           <li class="title9"><a href="Contact.html">Contact</a></li> 
+         </ul>
+    </div><!--nav end-->
+<!--top-bottom1 end-->    
+
+
+
+   <!--content begin-->
+     <div id="content">
+     <div class="content-top">
+          <div id="container1">
+          
+          <div id="boxID"><!--焦点图盒子-->
+  <div class="loading"><img src="pic/loading.gif" alt="" /></div><!--载入画面(可删除)-->
+  <div class="pic"><!--内容列表(li数目可随意增减)-->
+  	<ul>
+        <li><a href="subnav/Research/1.html"><img src="pic/pic change/3.png" alt="Sparse Model" text="The solution path of a sparse model:the non-zero entries of the solution vector with respect to regularization parameter" /></a></li>
+        <li><a href="subnav/Research/2.html"><img src="pic/pic change/2.png" alt="Microscopic Imaging" text="Design of differential wavelets(left),which are used to enhance chromosome image banding patterns(middle)and classification(right)" /></a></li>
+        <li><a href="subnav/Research/3.html"><img src="pic/pic change/4.png" alt="Biomedical Imaging" text="Analysis of a variety of biomedical imaging: analysis of tagged MRI imaging (left); track of synapses from light microscope (middle); and detection of abnormal brain regions (right)" /></a></li>
+        <li><a href="subnav/Research/4.html"><img src="pic/pic change/5.png" alt="Genomics Informatics" text="Detection of CNVs from next generation sequencing data and correlate with complex diseases" /></a></li>
+        <li><a href="subnav/Research/5.html"><img src="pic/pic change/1.png" alt="Imaging Genomics" text="Intergration of multiscale genomic data for comprehensive analysis" /></a></li>
+  	</ul>
+  </div>
+</div>
+    
+   </div>
+   </div>
+          <!--top-pic end-->
+      
+     
+       <!--box begin-->
+        <div class="box">
+          <div class="box1">
+             <div class="box1-title"><h3>Highlights</h3></div>
+             <div class="box1-content">
+             
+             
+             <p> Our new NSF EPSCOR project website is set up! check here: <a href="http://devcog.mrn.org" target="_blank">devcog.mrn.org</a></p>
+             
+			
+			<a href="https://docs.google.com/spreadsheets/d/1GWJITHSjczyJxqdXe87MRC4CDXuqPSagNyhnqHWGatE/edit#gid=890689232" target="_blank">Center meeting schedule</a>
+			
+			<marquee class="scroll" behavior="alternate" direction="left" scrollamount="1" loop=""><span style="color:blue;">Journal Club</span>: Mondays, <span style="color:red;">2-3pm</span></marquee>
+			<marquee class="scroll" direction="right" scrollamount="1.5" behavior="alternate"><span style="color:blue;">Research meeting</span>: Thursdays, <span style="color:red;">1-2pm</span></marquee>
+			
+             </div>
+             
+             <div class="button"><a href="News.html">Learn more</a></div>
+          </div>
+           <div class="box2">
+             <div class="box2-title"><h3>Recent Publications</h3></div>
+             <div class="box2-content"><p>Pascal Zille, Vince D. Calhoun, Yu-Ping <span class="bold">Wang</span>, <a href="http://ieeexplore.ieee.org/document/7961271/" target="_blank">Enforcing Co-expression Within a Brain-Imaging Genomics Regression Framework</a>, IEEE Transactions on Medical Imaging, 28 June 2017, DOI: 10.1109/TMI.2017.2721301</p>
+             <div class="button"><a href="Publications.html">Learn more</a></div></div>
+          </div>
+          <div class="box3">
+            <div class="box3-title"><h3>Job Opportunities</h3></div>
+             <div class="box3-content">
+               <p class="text-warning">We are now hiring!</p>
+               <p>Many opportunities are available for postdocs, PhD students and undergraduates ...</p>
+              
+               <div class="button">
+			   <a href="Opportunity.html">Learn more</a>
+			   </div>
+             </div>
+             
+          </div>
+        </div><!--box end-->
+   </div><!--content end-->
+   
+   
+  
+   
+   <div>
+   <a href="http://info.flagcounter.com/LqlG" target="_blank"><img src="http://s01.flagcounter.com/count/LqlG/bg_9BFF82/txt_000000/border_1BCC2C/columns_2/maxflags_4/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+   </div>
+
+   <div>
+   <!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=11118357; 
+var sc_invisible=1; 
+var sc_security="314ad7d0"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="hit counter"
+href="http://statcounter.com/free-hit-counter/"
+target="_blank"><img class="statcounter"
+src="//c.statcounter.com/11118357/0/314ad7d0/1/" alt="hit
+counter"></a></div></noscript>
+   <!-- End of StatCounter Code for Default Guide -->
+   </div>
+   
+   
+    <!--top-bottom2 begin-->        
+   <!--copyright begin-->
+    <div id="copyright">
+        <div class="cr-top">
+          <div class="map"><a href="https://www.google.com/maps/@29.9556836,-90.0712342,16z?hl=zh-CN" target="_blank">
+          <i class="fa fa-map-marker"></i> Google map</a></div>
+          <div class="E-mail"><a href="Contact.html"><i class="fa fa-envelope-o"></i> E-mail:</a><span class="e"> <a href="mailto:wyp@tulane.edu">wyp@tulane.edu</a></span></div>
+          <div class="phone"><a href="Contact.html"><i class="fa fa-phone"></i> phone:</a><span class="tel"> 504-988-1341</span></div>
+        </div>
+        <div class="cr-bottom">Copyright <i class="fa fa-copyright"></i> <span id="year"></span> MBB Lab Research</div>     
+    </div> 
+    <!--copyright end --> 
+  </div>
+<!--  container end-->
+<script src="nav.js"></script>
+
+<script>
+var d = new Date();
+document.getElementById("year").innerHTML = d.getFullYear();
+</script>
+</body>
+</html>
+<!--top-bottom2 end-->   
+ 

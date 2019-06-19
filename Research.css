@@ -1,0 +1,20 @@
+*{padding:0;margin:0;}
+
+
+.text1,.text2,.text3,.text4,.text5{margin:15px auto;}
+.r1{float:right;padding:10px;}
+.r2{padding:10px 20px 10px 60px;}
+.r3{padding:10px 20px 10px 60px;margin-top:-10px;}
+.r4{float:right;padding-left:10px;padding-bottom:10px;margin-top:-10px;}
+.r5{float:right;padding-left:10px;padding:10px;}
+.bold{font-weight:bold;}
+
+#nav .title4 a:visited{color:#999;}
+
+.list{ font-style:italic; font-size:14px;} 
+
+
+
+
+
+p{font-size:18px;}

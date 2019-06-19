@@ -1,0 +1,16 @@
+*{padding:0;margin:0;}
+.content1{margin:0 auto;padding:75px 60px 150px 60px;font-family:Arial, Helvetica, sans-serif;background-color:#EEE;font-size:18px;}
+.content1 p{line-height:40px;margin-left:30px;}
+
+.us{float:right;border:1px solid #9CF;margin-top:-230px;margin-right:100px;}
+
+
+#nav .title3 a:visited{color:#999;}
+
+
+
+
+
+/* .sidebar{width:16.6%;margin-top:50px;margin-left:83.8%;padding:15px;position:fixed;} */
+
+.title{font-size:16px;font-weight:bold;border-bottom:1px solid #000;color:#000;line-height:30px;padding:0px 5px 5px 0px;}
