@@ -1,0 +1,23 @@
+*{padding:0;margin:0;}
+.content1{width:70%;margin:0 auto;padding:10px 60px;font-family:Arial, Helvetica, sans-serif;background-color:#EEE;}
+.content-top{line-height:30px;padding:20px 0;margin-bottom:20px;border-bottom:4px solid #CCC;}
+.ct1{color:#0070C0;font-size:32px;}
+.ct2{color:#92D050;font-style:italic;font-size:22px;}
+.ct3{color:#663300;font-style:italic;font-size:18px;}
+.one,.two,.three,.four,.five,.six{font-family:Georgia, "Times New Roman", Times, serif;}
+.content p{line-height:25px;}
+.content-1,.content-2,.content-3,.content-4,.content-5{margin-bottom:20px;font-size:18px;}
+.content-6{margin-bottom:20px;font-size:18px;}
+.sub-1,.sub-2,.sub-3,.sub-4,.sub-5,.sub-6{margin-left:30px;margin-top:10px;font-size:16px;}
+
+.para{margin-top:5px;}
+.sub-1 .italic,.sub-2 .italic,.sub-3 .italic,.sub-4 .italic,.sub-5 .italic,.sub-6 .italic{font-style:italic;font-weight:600;}
+.comment{text-indent:2em;}
+#nav .title6 a:visited{color:#999;}
+
+
+
+
+
+.sidebar{width:16%;margin-top:20px;margin-right:50%;padding:15px;position:fixed;}
+.title{font-size:16px;font-weight:bold;border-bottom:1px solid #000;color:#000;line-height:30px;padding:0px 5px 5px 0px;}
